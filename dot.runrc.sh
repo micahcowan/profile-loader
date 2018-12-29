@@ -4,7 +4,7 @@
 OLDPWDSAVE=$OLDPWD
 PWDSAVE=$PWD
 
-if test -d "${RCDIR:=~/.rc-enabled}"; then
+if test -d "${RCDIR:="$HOME"/.rc-enabled}"; then
     cd "$RCDIR"
     for CURRENT_RCSCRIPT in *
     do
