@@ -1,5 +1,7 @@
 ### Run user profile-setup scripts found in ~/.rc-enabled/ (or
 #   wherever specified in RCDIR)
+#   
+#   This is free and unencumbered software released into the public domain.
 
 OLDPWDSAVE=$OLDPWD
 PWDSAVE=$PWD
