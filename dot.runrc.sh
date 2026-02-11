@@ -15,7 +15,7 @@ if test -d "${RCDIR:="$HOME"/.rc-enabled}"; then
     done
 fi
 
-cd "$OLDPWDSAVE"
+cd "$OLDPWDSAVE" 2>/dev/null || true
 cd "$PWDSAVE"
 unset OLDPWDSAVE
 unset PWDSAVE
